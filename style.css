@@ -112,15 +112,12 @@ img {
 .info-cards {
     display: flex;
     flex-wrap: wrap;
-    /* allow cards to wrap */
     gap: 20px;
     justify-content: space-evenly;
 }
 
-/* Wrapper for each card and its text */
 .card {
     width: 150px;
-    /* control image width */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,12 +125,12 @@ img {
     gap: 20px;
 }
 
-/* Image inside the card */
 .card>img {
-    width: 100%;
+    width: 400px;
     height: 160px;
     border-radius: 12px;
     object-fit: cover;
+    border: 8px solid #3882f6 ;
 }
 
 
@@ -148,6 +145,7 @@ img {
 
 
 /* section 3 */
+
 .section3 {
     background-color: #e5e7eb;
     padding: 100px;
@@ -196,7 +194,7 @@ img {
     border-radius: 6px;
     padding: 10px 24px;
     font-size: 16px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 /* footer */
