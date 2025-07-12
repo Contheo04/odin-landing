@@ -149,6 +149,8 @@ img {
 .section3 {
     background-color: #e5e7eb;
     padding: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .quote {
@@ -162,6 +164,7 @@ img {
     text-align: right;
     font-weight: 900;
     font-size: 30px;
+    margin-top: 20px;
 }
 
 
